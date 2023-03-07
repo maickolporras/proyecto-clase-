@@ -5,9 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style type="text/css">
+        [required]{
+            box-shadow: 0 0 9px 0px #ce0812;
+        }
+    </style>
 </head>
 <body>
+    <center>
     <h2>evaluacion cultura general</h2>
-    
+            <br>
+    <p>
+        A continuación, se le dará 10 preguntas con selección múltiple,
+        única y abierta por favor contestar de la manera mas sincera así no sepa,
+        muchas gracias
+    </p>
+    <h3>datos personales</h3>
+            <br>
+        <label for="date">ingrese fecha:</label>    
+        <input type="date" name="fecha" id="fecha">
+            <br><br>
+        <label for="nombre">nombres:</label>                                             
+        <input type="text" required name="nombre" id="nombre">          
+            <br><br>
+        <label for="apellido">apellidos:</label>
+        <input type="text" required name="apellido" id="apellido">
+            <br><br>
+        <label for="numero">ingrese su grado:</label>
+        <input type="number"  name="numero" id="numero">
+            <br><br>
+        <label for="file">subir documento estudiantil:</label>
+            <br><br>
+        <input type="file" name="file" id="file">
+            <br><br>
+    </center>
+        
+        <div>
+            <ol>
+                <li>
+                    cual es el rio mas largo
+                    <br>
+                    <input type="radio" name="pregunta" id="pregunta">
+                    <label for="radio">rio nilo:</label>  
+                    <br>    
+                    <input type="radio" name="pregunta" id="pregunta">
+                    <label for="radio">rio amazonas:</label>
+                    <br>
+                    <input type="radio"  name="pregunta" id="pregunta">
+                    <label for="radio">rio danubio:</label>
+                </li>
+                <li>
+                    cual es el oceano mas grande
+                    <br>
+                    <input type="radio" name="pregunta2" id="pregunta2">
+                    <label for="radio">oceano pacifico:</label>  
+                    <br>    
+                    <input type="radio" name="pregunta2" id="pregunta2">
+                    <label for="radio">rio oceano indico:</label>
+                    <br>
+                    <input type="radio"  name="pregunta2" id="pregunta2">
+                    <label for="radio">oceano atlatico:</label>
+
+                </li>
+                
+
+            
+            </ol>
+        </div>
+
+        
+
+
+  
 </body>
 </html>
