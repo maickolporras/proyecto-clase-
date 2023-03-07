@@ -7,28 +7,33 @@
     <title>contacto</title>
     <style type="text/css">
         [required]{
-            box-shadow: 0 0 11px 2px #db0e0e;
+            box-shadow: 0 0 10px 1px #f37070;
+        }
+    </style>
+    <style>
+        textarea{
+            resize: none;
         }
     </style>
 </head>
 <body>
+    <center>
+        <h2>datos personales</h2>
     <form>
         <label for="nombre">nombre completo:</label>
         <br>
-        <input type="text"  required name="nombre" id="nombre" >
-        <button>enviar</button>
+        <input type="text"  required name="nombre" id="nombre">
         <br>
         <label for="correo">ingrese correo:</label>
         <br>
-        <input type="email" id="email" name="email" required>
-        <button>enviar</button>
+        <input type="email" required id="correo" name="email">
         <br>
         <label for="contraseña">ingrese su contraseña:</label>
         <br>
-        <input type="password" id="contraseña" name="contraseña" required>
-        <button>enviar</button>
+        <input type="password" required id="contraseña" name="contraseña">
     </form>
     <div>
+        <h2>direccion de residencia</h2>
         <label for="text">seleccione direccion:</label>
         <br>
         <select>
@@ -97,6 +102,14 @@
             <option value="n">20</option>
          </select>         
     </div>
+    <div>
+        <h2>sugerencias</h2>
+        <label for="vecinos">sugerencia a mejorar</label>
+        <br>
+        <textarea name="vecinos" id="vecinos" cols="50" rows="20"></textarea>
+    </div>
+    <input type="submit"  value="enviar">
+
     
 </body>
 </html>
