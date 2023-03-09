@@ -1,0 +1,16 @@
+#titulo{
+    color: rgb(0, 255, 21);
+    text-align: center;
+}
+.color{
+    background-color: rgb(38, 0, 253);
+}
+#tabla1{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.DzI8HHY19P2byMsjF8pHEwHaFj&pid=Api&P=0);
+}
+body{
+    background-color: rgb(97, 19, 93);
+}
+.center{
+    text-align: center;
+}
