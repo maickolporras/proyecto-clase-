@@ -1,0 +1,42 @@
+body{
+    background: url();
+    background-size: 100%;
+    margin-top: 200px; ;
+    margin-right: 200px; margin-left: 200px;
+}
+.upb{
+    text-align: right;
+    background-size: 100%;
+}
+#tl{
+    text-decoration: underline rgb(238, 255, 0) 3px;
+    text-transform:uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#ed{
+    text-transform:capitalize;
+    color: rgb(255, 0, 0);
+}
+.nb{
+    color: rgb(0, 0, 0);
+    text-transform:capitalize;
+    text-decoration: underline rgb(238, 255, 0);
+}
+#rs{
+    color: rgb(255, 0, 0);
+    text-transform:capitalize;
+}
+#ct{
+    text-decoration: underline rgb(255, 251, 0);
+    text-transform:uppercase; 
+
+}
+.pdr{
+    display: flex;
+  margin-top: 50px; 
+  margin-right: 100px; margin-left: 100px;
+}
+.ctim{
+   text-align: end;
+}
