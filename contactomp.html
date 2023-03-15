@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contacto</title>
+    <link rel="stylesheet" href="style.css">
     <style type="text/css">
         [required]{
             box-shadow: 0 0 10px 1px #e21111;
@@ -18,10 +19,12 @@
 </head>
 <body>
     <center>
+        <div class="cc">
         <h2>datos personales</h2>
-    <form>
-        <label for="nombre">nombre completo:</label>
         <br>
+    <form class="ncc">
+        <label for="nombre" class="lb">nombre completo:</label>
+        <br><br>
         <input type="text"  required name="nombre" id="nombre">
         <br>
         <label for="correo">ingrese correo:</label>
@@ -32,6 +35,7 @@
         <br>
         <input type="password" required id="contraseña" name="contraseña">
     </form>
+    <img src="fondo.jpg" alt="" width="20%" height="20%" id="ojo">
     <div>
         <h2>direccion de residencia</h2>
         <label for="text">seleccione direccion:</label>
@@ -109,5 +113,6 @@
         <textarea name="vecinos" id="vecinos" cols="20" rows="10"></textarea>
     </div>
     <input type="submit"  value="enviar">
+</div>
 </body>
 </html>
